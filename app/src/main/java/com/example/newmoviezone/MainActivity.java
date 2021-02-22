@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(v.getContext(),RegistrarUsuario.class);
                 startActivity(intent);
                 int a;
-
+int b;
             }
         });
         Button bto =(Button)findViewById(R.id.btnIniciarSesion);
