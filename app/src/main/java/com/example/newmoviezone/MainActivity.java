@@ -21,6 +21,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(v.getContext(),RegistrarUsuario.class);
                 startActivity(intent);
+                int a;
+
             }
         });
         Button bto =(Button)findViewById(R.id.btnIniciarSesion);
