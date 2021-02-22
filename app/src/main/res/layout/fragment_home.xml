@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_200"
+    tools:context=".ui.home.HomeFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_home"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:text="Bienvenidos a su aplicacion "
+                android:textAlignment="center"
+                android:textSize="20sp"
+                tools:text="Bienvenidos a su aplicacion" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="18dp"
+                android:baselineAligned="false"
+                android:text="Beinvenidos a esta suu aplcicacion donde podemoa enconttrar los trailers de las nuevas peliculas que se vienen a la pantalla grande asi como tambien un apartado donde se pueden comprar boletos para ir al cine de forma fisica, esperando que sea de su agrado y que sea muy accesible, a continuacion en la parte de abajo mostratremos un trailer de una pelicula para que se den la idea de como funciona esta app" />
+
+            <VideoView
+                android:id="@+id/videoView2"
+                android:layout_width="363dp"
+                android:layout_height="218dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="61dp"
+                android:baselineAligned="false"
+                android:text="Tambien hablaremos un poco de nosotros somos futuros programadores en los cuales buscamos poder ayudar con las necesidades de las personas utilizando las tecnologias he innovaviones qie se estan llevando a cabo hoy en dia nosotros somos :Gabriel Resendiz Zamorano y Jorge Luis Rojas Zavala ambos en colaboracion traemos esta app para ver peliculas asi como trailers y compra de boletos para ir de forma fisica al cine" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="116dp"
+                android:background="@color/teal_200"
+                android:scaleType="center"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="116dp"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="-110dp"
+                android:background="@color/teal_200"
+                android:scaleType="center"
+                tools:srcCompat="@tools:sample/avatars" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

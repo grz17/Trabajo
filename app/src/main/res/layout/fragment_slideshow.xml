@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_dark"
+    tools:context=".ui.slideshow.SlideshowFragment">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_slideshow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:text="Taquilla"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                tools:text="Taquilla" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="197dp"
+                android:layout_height="34dp"
+                android:layout_marginTop="50dp"
+                android:baselineAligned="false"
+                android:text="Nombre de Usario"
+                tools:text="Nombre de Usuario" />
+
+            <EditText
+                android:id="@+id/editTextNombredeUsuarioTaquilla"
+                android:layout_width="165dp"
+                android:layout_height="67dp"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="-50dp"
+                android:baselineAligned="false"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textViewCorreoElectronico"
+                android:layout_width="197dp"
+                android:layout_height="34dp"
+                android:layout_marginTop="50dp"
+                android:baselineAligned="false"
+                android:text="Correo Electronico"
+                tools:text="Correo Electronico" />
+
+            <EditText
+                android:id="@+id/editTextCorreoTaquilla"
+                android:layout_width="165dp"
+                android:layout_height="67dp"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="-50dp"
+                android:baselineAligned="false"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textViewContraseña"
+                android:layout_width="197dp"
+                android:layout_height="34dp"
+                android:layout_marginTop="50dp"
+                android:baselineAligned="false"
+                android:text="Contraseña"
+                tools:text="Contraseña" />
+
+            <EditText
+                android:id="@+id/editTextContraseñaTaquilla"
+                android:layout_width="165dp"
+                android:layout_height="67dp"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="-50dp"
+                android:baselineAligned="false"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:text="" />
+
+
+            <TextView
+                android:id="@+id/textViewConfirmarContraseña"
+                android:layout_width="197dp"
+                android:layout_height="34dp"
+                android:layout_marginTop="50dp"
+                android:baselineAligned="false"
+                android:text="Confirmar Contraseña"
+                tools:text="Confirmar Contraseña" />
+
+            <EditText
+                android:id="@+id/editTextConfimarContraseñaTaquilla"
+                android:layout_width="165dp"
+                android:layout_height="67dp"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="-50dp"
+                android:baselineAligned="false"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textViewCVV"
+                android:layout_width="197dp"
+                android:layout_height="34dp"
+                android:layout_marginTop="65dp"
+                android:baselineAligned="false"
+                android:text="CVV"
+                tools:text="CVV" />
+
+            <EditText
+                android:id="@+id/editTextCVV"
+                android:layout_width="165dp"
+                android:layout_height="67dp"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="-50dp"
+                android:baselineAligned="false"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="" />
+
+            <Button
+                android:id="@+id/btnConfrimarTaquilla"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="120dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="100dp"
+                android:baselineAligned="false"
+                android:text="Confirmar Compra" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_red_dark"
+    tools:context=".ui.gallery.GalleryFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_gallery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:text="Trailer de proximas  peliculas"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                tools:text="Trailer de proximas peliculas" />
+
+            <VideoView
+                android:id="@+id/videoView3"
+                android:layout_width="171dp"
+                android:layout_height="181dp"
+                android:layout_marginTop="15dp" />
+
+            <VideoView
+                android:id="@+id/videoView4"
+                android:layout_width="171dp"
+                android:layout_height="181dp"
+                android:layout_marginTop="15dp" />
+
+            <VideoView
+                android:id="@+id/videoView5"
+                android:layout_width="171dp"
+                android:layout_height="181dp"
+                android:layout_marginTop="15dp" />
+
+            <VideoView
+                android:id="@+id/videoView6"
+                android:layout_width="171dp"
+                android:layout_height="181dp"
+                android:layout_marginTop="15dp" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="246dp"
+                android:layout_height="140dp"
+                android:layout_marginStart="200dp"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="-550dp"
+                android:baselineAligned="false"
+                android:text="Sinopsis: Clasificacion: Mayores de 13 años Tipo:Terror Estreno en los cines el_ 25/02/2040 " />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="246dp"
+                android:layout_height="140dp"
+                android:layout_marginStart="200dp"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="-350dp"
+                android:baselineAligned="false"
+                android:text="Sinopsis: Clasificacion: Mayores de 13 años Tipo:Terror Estreno en los cines el_ 25/02/2040  " />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="246dp"
+                android:layout_height="140dp"
+                android:layout_marginStart="200dp"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="250dp"
+                android:baselineAligned="false"
+                android:text="Sinopsis: Clasificacion: Mayores de 13 años Tipo:Terror Estreno en los cines el_ 25/02/2040 " />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="246dp"
+                android:layout_height="140dp"
+                android:layout_marginStart="200dp"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="50dp"
+                android:baselineAligned="false"
+                android:text="Sinopsis: Clasificacion: Mayores de 13 años Tipo:Terror Estreno en los cines el_ 25/02/2040 " />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
